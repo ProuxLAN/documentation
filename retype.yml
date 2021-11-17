@@ -1,4 +1,4 @@
-input: ./doc
+input: ./
 output: .retype
 url: doc.marc.proux.onl
 
@@ -7,7 +7,7 @@ branding:
   label: Docs
 
 meta:
-  title: "| ProuxLAN"
+  title: " | ProuxLAN"
 
 edit:
   repo: github.com/ProuxLAN/documentation
