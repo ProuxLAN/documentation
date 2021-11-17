@@ -1,0 +1,22 @@
+input: ./doc
+output: .retype
+url: doc.marc.proux.onl
+
+branding:
+  title: ProuxLAN
+  label: Docs
+
+meta:
+  title: "| ProuxLAN"
+
+edit:
+  repo: github.com/ProuxLAN/documentation
+  
+links:
+  - text: GitHub
+    link: https://github.com/ProuxLAN/documentation
+    icon: mark-github
+    target: blank
+
+footer:
+  copyright: © Copyright {{ year }}. All rights reserved.
