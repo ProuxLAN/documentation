@@ -6,27 +6,27 @@
     <meta name="turbo-cache-control" content="no-cache">
 
     <!-- Primary Meta Tags -->
-    <title>ProuxLAN| ProuxLAN</title>
-    <meta name="title" content="ProuxLAN| ProuxLAN">
-    <meta name="description" content="Cluster" />
+    <title>Accueil | ProuxLAN</title>
+    <meta name="title" content="Accueil | ProuxLAN">
+    <meta name="description" content="Cluster 1.1. Supervision 1.1.1. Icinga2 1.1.2. Grafana 1.2. Logiciel 1.2.1. Consul 1.2.2. Nomad 1.2.3. Vault" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://doc.marc.proux.onl/project/prouxlan/home/">
-    <meta property="og:title" content="ProuxLAN| ProuxLAN">
-    <meta property="og:description" content="Cluster">
+    <meta property="og:title" content="Accueil | ProuxLAN">
+    <meta property="og:description" content="Cluster 1.1. Supervision 1.1.1. Icinga2 1.1.2. Grafana 1.2. Logiciel 1.2.1. Consul 1.2.2. Nomad 1.2.3. Vault">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://doc.marc.proux.onl/project/prouxlan/home/">
-    <meta property="twitter:title" content="ProuxLAN| ProuxLAN">
-    <meta property="twitter:description" content="Cluster">
+    <meta property="twitter:title" content="Accueil | ProuxLAN">
+    <meta property="twitter:description" content="Cluster 1.1. Supervision 1.1.1. Icinga2 1.1.2. Grafana 1.2. Logiciel 1.2.1. Consul 1.2.2. Nomad 1.2.3. Vault">
     
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="/resources/css/retype.css?v=1.10.690489138046" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/resources/css/retype.css?v=1.10.690491273668" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/resources/js/config.js?v=1.10.690489138046" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/resources/js/config.js?v=1.10.690491273668" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/resources/js/retype.js?v=1.10" defer data-turbo-track="reload"></script>
     <script id="mermaid-js" type="text/javascript" src="/resources/js/mermaid.js?v=1.10" defer></script>
 </head>
@@ -181,10 +181,10 @@
                 <div id="docs-sidebar-right-toggle"></div>
                
                 <!-- Page content  -->
-<doc-anchor-target id="prouxlan" class="break-words">
+<doc-anchor-target id="accueil" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#prouxlan">#</doc-anchor-trigger>
-        <span>ProuxLAN</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#accueil">#</doc-anchor-trigger>
+        <span>Accueil</span>
     </h1>
 </doc-anchor-target>
 <div class="-mt-3 mb-12 flex flex-wrap text-sm text-gray-400 dark:text-dark-350">
@@ -207,32 +207,23 @@
 </doc-anchor-target>
 <ol>
 <li>Cluster
-<ol>
-<li>Supervision</li>
-<li>Icinga2</li>
-<li>Grafana</li>
-</ol>
-</li>
-<li>Logiciel</li>
-<li>Consul</li>
-<li>Nomad</li>
-<li>Vault</li>
+1.1. Supervision
+1.1.1. Icinga2
+1.1.2. Grafana
+1.2. Logiciel
+1.2.1. Consul
+1.2.2. Nomad
+1.2.3. Vault</li>
 <li>Matériel
-<ol>
-<li>Réseau</li>
-<li>Firewall</li>
-<li>Routeur</li>
-<li>Switch</li>
-</ol>
-</li>
-<li>Serveur</li>
-<li>SBC</li>
-<li>2U</li>
-<li>Stockage
-<ol>
-<li>NAS-01 (custom)</li>
-</ol>
-</li>
+2.1. Réseau
+2.1.1. Firewall
+2.1.2. Routeur
+2.1.3. Switch
+2.2. Serveur
+2.2.1. SBC
+2.2.2. 2U
+2.2.3. Stockage
+2.2.3.1. NAS-01 (custom)</li>
 </ol>
 <doc-anchor-target id="architecture">
     <h2>
@@ -275,26 +266,24 @@
         <span>Matériel</span>
     </h2>
 </doc-anchor-target>
+<doc-anchor-target id="réseau">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#réseau">#</doc-anchor-trigger>
+        <span>Réseau</span>
+    </h3>
+</doc-anchor-target>
 <table class="comfortable">
 <thead>
 <tr>
-<th>Réseau</th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
+<th>Statut</th>
+<th>Type</th>
+<th>Modèle</th>
+<th>Quantité</th>
+<th>Informations</th>
+<th>Lien</th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>Statut</td>
-<td>Type</td>
-<td>Modèle</td>
-<td>Quantité</td>
-<td>Informations</td>
-<td>Lien</td>
-</tr>
 <tr>
 <td><span class="docs-emoji">&#x2705;</span></td>
 <td>Switch</td>
@@ -321,26 +310,24 @@
 </tr>
 </tbody>
 </table>
+<doc-anchor-target id="serveur">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#serveur">#</doc-anchor-trigger>
+        <span>Serveur</span>
+    </h3>
+</doc-anchor-target>
 <table class="comfortable">
 <thead>
 <tr>
-<th>Serveur</th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
+<th>Statut</th>
+<th>Type</th>
+<th>Modèle</th>
+<th>Quantité</th>
+<th>Informations</th>
+<th>Lien</th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>Statut</td>
-<td>Type</td>
-<td>Modèle</td>
-<td>Quantité</td>
-<td>Informations</td>
-<td>Lien</td>
-</tr>
 <tr>
 <td><span class="docs-emoji">&#x2705;</span></td>
 <td>SBC</td>
@@ -367,32 +354,30 @@
 </tr>
 </tbody>
 </table>
+<doc-anchor-target id="stockage">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#stockage">#</doc-anchor-trigger>
+        <span>Stockage</span>
+    </h3>
+</doc-anchor-target>
 <table class="comfortable">
 <thead>
 <tr>
-<th>Stockage</th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
+<th>Statut</th>
+<th>Type</th>
+<th>Modèle</th>
+<th>Quantité</th>
+<th>Informations</th>
+<th>Lien</th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>Statut</td>
-<td>Type</td>
-<td>Modèle</td>
-<td>Quantité</td>
-<td>Informations</td>
-<td>Lien</td>
-</tr>
 <tr>
 <td><span class="docs-emoji">&#x274C;</span></td>
 <td>NAS</td>
 <td>Custom</td>
 <td>1</td>
-<td>2 disques de 250Go en Raid1, 4 disques de 2To en Raid5 <strong>(manque 2)</strong></td>
+<td>2 disques de 250Go en Raid1, 6 disques de 2To en Raid5</td>
 <td></td>
 </tr>
 </tbody>
@@ -429,7 +414,7 @@
         <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-all md:break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="/project/prouxlan/hardware/switch/">
             <span>
                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                <span class="block mt-1">ProuxLAN | Hardware | Switch</span>
+                <span class="block mt-1">Switch</span>
             </span>
             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
         </a>
@@ -477,6 +462,6 @@
 
         <div id="docs-overlay-target"></div>
 
-        <script>window.__DOCS__ = { "title": "ProuxLAN", icon: "file", hasPrism: false, hasMermaid: true, hasMath: false }</script>
+        <script>window.__DOCS__ = { "title": "Accueil", icon: "file", hasPrism: false, hasMermaid: true, hasMath: false }</script>
     </body>
 </html>
